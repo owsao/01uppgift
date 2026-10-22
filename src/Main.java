@@ -8,10 +8,10 @@ public class Main {
         String name = scanner.nextLine(); 
         
         System.out.print("What is their hourly rate?\n> ");
-        int hourlyRate = Integer.parseInt(scanner.nextLine());
+        int hourlyRate = scanner.nextInt();
 
         System.out.print("How many hours did they work this month?\n> ");
-        int hours = Integer.parseInt(scanner.nextLine());
+        int hours = scanner.nextInt();
 
         System.out.println("Calculating...");
 
@@ -20,8 +20,7 @@ public class Main {
 
         //Print payment slip formatted with tabs(\t)
         System.out.println("--------------------");
-        System.out.println("## PAYMENT INFORMATION ##");
-        System.out.println();
+        System.out.println("## PAYMENT INFORMATION ##\n");
         System.out.println("Name:\t\t" + slip.getName());
         System.out.println("Hourly rate:\t$" + slip.getHourlyRate());
         System.out.println("Hours worked:\t" + slip.getHours());
