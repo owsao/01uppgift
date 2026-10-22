@@ -42,6 +42,6 @@ public class PaymentSlip {
 
     //Calculate Net Salary (30%tax deduction -> 70% remaining)
     public double calculateNetSalary(){
-        return calculateSalary() * 0.70;
+        return calculateSalary() * 0.7;
     }
 }

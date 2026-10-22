@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Hours worked:\t" + slip.getHours());
         System.out.println();
         System.out.println("Salary before tax:\t$" + slip.calculateSalary());
-        System.out.println("Salary after tax:\t$" + (int) slip.calculateNetSalary());
+        System.out.println("Salary after tax:\t$" + slip.calculateNetSalary());
         System.out.println();
         System.out.println("If you have any questions regarding your salary, contact Bob");
         System.out.println("--------------------");
